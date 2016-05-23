@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test page</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+
+	<h2>Print JSON object</h2>
+	<div id="json-output">		</div>
+
+
+	<h2>Striped Tables</h2>
+	<div id="table-output">		</div>
+
+
+
+
+<script id="json-template" type="text/x-handlebars-template">
+	{{json posts}}
+</script>
+
+
+<script id="table-template" type="text/x-handlebars-template">
+	{{#table posts}}
+		<h2 class="post-title">Post published by {{userId}}</h2>
+		<a href="{{imgUrl}}">
+			<img class="post-image" src="{{imgUrl}}">
+		</a>
+		<p class="post-text">{{{description}}}</p>
+		<p>Likes: {{likeCount}}<p>
+	{{/table}}
+</script>
+
+
+
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/handlebars/handlebars.js"></script>
+	<script src="data.js"></script>
+	<script src="test.js"></script>
+
+</body>
+</html>

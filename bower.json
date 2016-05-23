@@ -1,0 +1,19 @@
+{
+  "name": "Adv-fe",
+  "homepage": "https://github.com/oleksandrD/Adv_fe",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "Git": "C:/Program Files (x86)/Git",
+    "react": "^15.0.2",
+    "underscore": "1.8.3",
+    "handlebars": "^4.0.5",
+    "jquery": "^2.2.4"
+  }
+}

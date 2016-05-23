@@ -1,0 +1,40 @@
+body {
+	font-family: Tahoma;
+}
+
+.striped-table {
+	border: 1px solid #777;
+	border-collapse: collapse;
+}
+
+.striped-row {
+	border: 1px dashed #777;
+}
+
+.striped-row.even {
+	background: #f0fbff;
+}
+
+.striped-row.odd {
+	background: #fdf6f7;
+}
+
+.striped-cell {
+	padding: 20px;
+
+}
+
+.post-title {
+	font-style: italic;
+}
+
+.post-image {
+	max-width: 200px;
+	max-height: 400px;
+	float: left;
+	margin-right: 40px;
+}
+
+.post-text {
+	font-size: 35px;
+}
